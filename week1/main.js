@@ -22,13 +22,23 @@
 
 // console.log(answer);
 
-const age = [23,12,44,22,27,39];
+// const age = [23,12,44,22,27,39];
 
 
 
-for(let i =0; i<age.length;i++){
+// for(let i =0; i<age.length;i++){
 
-    if(age[i] % 2 == 0){
-        console.log(age[i]);
-    } 
+//     if(age[i] % 2 == 0){
+//         console.log(age[i]);
+//     } 
+// }
+
+const PersonName = ["Hari", "Abhi", "Priya"];
+const GenderName = ["Male", "Male", "Female"];
+
+
+for(let i =0; i< GenderName; i++){
+     if(GenderName == "Male"){
+        console.log(PersonName[i]);
+     }
 }
