@@ -30,7 +30,5 @@ for(let i =0; i<age.length;i++){
 
     if(age[i] % 2 == 0){
         console.log(age[i]);
-    } else {
-        console.log("not present");
-    }
+    } 
 }
