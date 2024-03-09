@@ -13,11 +13,24 @@
 // }
 
 
-let answer = 0;
+// let answer = 0;
 
-for(let i =0; i<5;i++){
+// for(let i =0; i<5;i++){
     
-    answer = answer + i;
-}
+//     answer = answer + i;
+// }
 
-console.log(answer);
+// console.log(answer);
+
+const age = [23,12,44,22,27,39];
+
+
+
+for(let i =0; i<age.length;i++){
+
+    if(age[i] % 2 == 0){
+        console.log(age[i]);
+    } else {
+        console.log("not present");
+    }
+}
