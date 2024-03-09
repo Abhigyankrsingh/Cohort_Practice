@@ -37,8 +37,8 @@ const PersonName = ["Hari", "Abhi", "Priya"];
 const GenderName = ["Male", "Male", "Female"];
 
 
-for(let i =0; i< GenderName; i++){
-     if(GenderName == "Male"){
+for(let i =0; i< GenderName.length; i++){
+     if(GenderName[i] == "Male"){
         console.log(PersonName[i]);
      }
 }
