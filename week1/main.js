@@ -43,19 +43,40 @@
 //      }
 // }
 
-const user1 = {
+// const user1 = {
+//     FirstName: "Abhi",
+//     age: "18"
+// }
+
+// const user2 = {
+//     FirstName:"Hari",
+//     age : "20"
+// }
+
+
+// const user3 = {
+//     FirstName: "Priya",
+//     age: "21"
+// }
+
+
+const AllUsers = [{
+
     FirstName: "Abhi",
-    age: "18"
-}
+    Gender: "Male"
 
-const user2 = {
-    FirstName:"Hari",
-    age : "20"
-}
-
-
-const user3 = {
+}, {
     FirstName: "Priya",
-    age: "21"
+    Gender: "Female"
+}, {
+    FirstName: "Harkirat",
+    Gender: "Male"
 }
+]
 
+for(let i =0; i<AllUsers.length; i++){
+
+    if(AllUsers[i]["Gender"] == "Male"){
+        console.log(AllUsers[i]["FirstName"]);
+    }
+}
