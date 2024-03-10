@@ -64,18 +64,18 @@ const AllUsers = [{
 
     FirstName: "Abhi",
     Gender: "Male"
-
 }, {
+    FirstName: "Har",
+    Gender: "Male"
+}, {
+
     FirstName: "Priya",
     Gender: "Female"
-}, {
-    FirstName: "Harkirat",
-    Gender: "Male"
 }
+
 ]
 
-for(let i =0; i<AllUsers.length; i++){
-
+for(let i =0 ; i<AllUsers.length;i++){
     if(AllUsers[i]["Gender"] == "Male"){
         console.log(AllUsers[i]["FirstName"]);
     }
