@@ -81,19 +81,25 @@
 //     }
 // }
 
+// function sum(num1, num2, fntocall){
 
-function sum(num1, num2, fntocall){
+//     let value = num1 + num2;
 
-    let value = num1 + num2;
+//     fntocall(value);
+// }
 
-    fntocall(value);
+
+// function Diplayres(Data){
+
+//     console.log("The result value of sum is " + Data );
+// }
+
+
+// console.log(sum(1,2,Diplayres));
+
+function getlength(str){
+    console.log("Original String :", str);
+    console.log("Length:", str.length);
 }
 
-
-function Diplayres(Data){
-
-    console.log("The result value of sum is " + Data );
-}
-
-
-console.log(sum(1,2,Diplayres));
+getlength("Hello World");
