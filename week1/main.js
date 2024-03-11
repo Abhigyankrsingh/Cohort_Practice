@@ -60,23 +60,40 @@
 // }
 
 
-const AllUsers = [{
+// const AllUsers = [{
 
-    FirstName: "Abhi",
-    Gender: "Male"
-}, {
-    FirstName: "Har",
-    Gender: "Male"
-}, {
+//     FirstName: "Abhi",
+//     Gender: "Male"
+// }, {
+//     FirstName: "Har",
+//     Gender: "Male"
+// }, {
 
-    FirstName: "Priya",
-    Gender: "Female"
+//     FirstName: "Priya",
+//     Gender: "Female"
+// }
+
+// ]
+
+// for(let i =0 ; i<AllUsers.length;i++){
+//     if(AllUsers[i]["Gender"] == "Male"){
+//         console.log(AllUsers[i]["FirstName"]);
+//     }
+// }
+
+
+function sum(num1, num2, fntocall){
+
+    let value = num1 + num2;
+
+    fntocall(value);
 }
 
-]
 
-for(let i =0 ; i<AllUsers.length;i++){
-    if(AllUsers[i]["Gender"] == "Male"){
-        console.log(AllUsers[i]["FirstName"]);
-    }
+function Diplayres(Data){
+
+    console.log("The result value of sum is " + Data );
 }
+
+
+console.log(sum(1,2,Diplayres));
