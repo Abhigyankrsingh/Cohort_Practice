@@ -97,9 +97,23 @@
 
 // console.log(sum(1,2,Diplayres));
 
-function getlength(str){
-    console.log("Original String :", str);
-    console.log("Length:", str.length);
+// function getlength(str){
+//     console.log("Original String :", str);
+//     console.log("Length:", str.length);
+// }
+
+// getlength("Hello World");
+
+//  str.indexOf(target);
+// str.lastIndexOf(target);
+
+
+function getSlice(str, start, end){
+
+    console.log("Original String:", str);
+
+    console.log("Original Slice:", str.slice(start, end));
+
 }
 
-getlength("Hello World");
+getSlice("Hello World", 0, 5);
