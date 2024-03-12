@@ -152,10 +152,16 @@
 // console.log(words1);
 // console.log(words2);
 
-const value = "  Abhigyan  Kumar Singh   "
+// const value = "  Abhigyan  Kumar Singh   "
 
 // console.log(value.trim())
 
-console.log(value.toUpperCase())
+// console.log(value.toUpperCase())
 
-console.log(value.toLowerCase())
+// console.log(value.toLowerCase())
+
+console.log(parseInt("42"));
+
+console.log(parseInt("42px"));
+
+console.log(parseInt("3.14"));
