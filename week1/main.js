@@ -140,3 +140,13 @@
 // const str = " Hello World";
 
 // console.log(str.replace(str, "world", "javascript"))
+
+
+const value = "hi my name is Abhigyan"
+
+const words = value.split(" ");
+
+const words1 = value.split("h");
+console.log(words);
+console.log(words1);
+ 
