@@ -142,12 +142,20 @@
 // console.log(str.replace(str, "world", "javascript"))
 
 
-const value = "hi my name is Abhigyan"
+// const value = "hi my name is Abhigyan"
 
-const words = value.split(" ");
+// const words = value.split(" ");
 
-const words1 = value.split("h");
-const words2 = value.split(",");
-console.log(words);
-console.log(words1);
-console.log(words2);
+// const words1 = value.split("h");
+// const words2 = value.split(",");
+// console.log(words);
+// console.log(words1);
+// console.log(words2);
+
+const value = "  Abhigyan  Kumar Singh   "
+
+// console.log(value.trim())
+
+console.log(value.toUpperCase())
+
+console.log(value.toLowerCase())
