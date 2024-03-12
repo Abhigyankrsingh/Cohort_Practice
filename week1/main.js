@@ -108,12 +108,31 @@
 // str.lastIndexOf(target);
 
 
-function getSlice(str, start, end){
+// function getSlice(str, start, end){
 
-    console.log("Original String:", str);
+//     console.log("Original String:", str);
 
-    console.log("Original Slice:", str.slice(start, end));
+//     console.log("Original Slice:", str.slice(start, end));
 
+// }
+
+// getSlice("Hello World", 0, 5);
+
+function cutIT(str, startIndex, endIndex){
+    let newStr = "";
+
+    for(let i =0; i<str.length; i++){
+        if( i>=startIndex && i <endIndex) {
+            newStr = newStr + str[i];
+        }
+    }
+
+    return newStr;
 }
 
-getSlice("Hello World", 0, 5);
+const value = "Abhigyan Singh";
+
+let ans2 = value.slice(2,5);
+console.log(ans2);
+
+console.log(cutIT(value,2,5));
