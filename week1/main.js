@@ -147,6 +147,7 @@ const value = "hi my name is Abhigyan"
 const words = value.split(" ");
 
 const words1 = value.split("h");
+const words2 = value.split(",");
 console.log(words);
 console.log(words1);
- 
+console.log(words2);
