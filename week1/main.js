@@ -212,12 +212,26 @@
 
 // initialArray.forEach(pri);
 
- const dog = {
-    Firstname : "oggie",
-    legCounts: 4,
-    speaks: "bhow bhow"
- }
+//  const dog = {
+//     Firstname : "oggie",
+//     legCounts: 4,
+//     speaks: "bhow bhow"
+//  };
 
-console.log("Animal" + dog["Firstname"] + " " + dog["speaks"]) 
+//  const cat = {
+//     Firstname: "Puss",
+//     legCounts: 4,
+//     speaks: " Mewow"
+//  };
+
+// function printStr(animal) {
+//     console.log("Animal " + animal["Firstname"]+ " " + animal["speaks"]);
+// }
+
+// printStr(dog);
+
+
+
+
 
 
