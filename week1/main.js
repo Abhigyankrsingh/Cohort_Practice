@@ -232,6 +232,30 @@
 
 
 
+// class Animal {
+
+//     constructor(name, legCount, speaks) {
+//         this.name = name;
+//         this.legCount = legCount;
+//         this.speaksloud = speaks;
+//     }
+//     speaks(){
+//         console.log("hi there" + this.speaksloud);
+//     }
+// }
+
+// let dog1 =  {
+//     name: "dog",
+//     legCount : 4,
+//     speaks: "bow bow"
+// }
+
+// let dog = new Animal("dog", 4, "bow bow");
 
 
+// dog.speaks();
 
+
+const currentDate = new Date();
+
+console.log("time in millisecond", currentDate.getTime());
