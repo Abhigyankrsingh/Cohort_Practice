@@ -160,8 +160,56 @@
 
 // console.log(value.toLowerCase())
 
-console.log(parseInt("42"));
+// console.log(parseInt("42"));
 
-console.log(parseInt("42px"));
+// console.log(parseInt("42px"));
 
-console.log(parseInt("3.14"));
+// console.log(parseInt("3.14"));
+
+
+
+
+
+// const initialArray = [1,2,3];
+
+// function pri(str){
+
+//     console.log(str);
+// }
+
+// initialArray.forEach(pri);
+
+
+// function log1 (str){
+//   console.log("Hello World1");
+// }
+
+
+// function log2(str){
+//     console.log("Hello World2");
+// }
+
+
+// function callfunction(fn){
+//     fn();
+// }
+
+
+// callfunction(log1);
+
+
+
+const initialArray = [1,2,3]
+
+
+
+function pri(str){
+
+ console.log( str + " It is a String");
+
+}
+
+
+initialArray.forEach(pri);
+
+
