@@ -199,17 +199,25 @@
 
 
 
-const initialArray = [1,2,3]
+// const initialArray = [1,2,3]
 
 
 
-function pri(str){
+// function pri(str){
 
- console.log( str + " It is a String");
+//  console.log( str + " It is a String");
 
-}
+// }
 
 
-initialArray.forEach(pri);
+// initialArray.forEach(pri);
+
+ const dog = {
+    Firstname : "oggie",
+    legCounts: 4,
+    speaks: "bhow bhow"
+ }
+
+console.log("Animal" + dog["Firstname"] + " " + dog["speaks"]) 
 
 
