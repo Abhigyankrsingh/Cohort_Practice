@@ -260,4 +260,19 @@
 
 // console.log("time in millisecond", currentDate.getTime());
 
+  
+// const users = '{"name": "Abhi", "age": 21, "gender": "male"}'
 
+// const user = JSON.parse(users)
+
+// console.log(user["gender"]);
+
+
+const user = {
+    name: "Abhi",
+    gender: "male"
+}
+
+const final = JSON.stringify(user)
+
+console.log(final);
