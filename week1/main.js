@@ -268,11 +268,20 @@
 // console.log(user["gender"]);
 
 
-const user = {
-    name: "Abhi",
-    gender: "male"
-}
+// const user = {
+//     name: "Abhi",
+//     gender: "male"
+// }
 
-const final = JSON.stringify(user)
+// const final = JSON.stringify(user)
 
-console.log(final);
+// console.log(final);
+
+
+// let ans = 0;
+
+// for(let i =1; i<50; i++){
+//     ans = ans + i;
+// }
+
+// console.log(ans);
