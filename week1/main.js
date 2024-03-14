@@ -316,29 +316,48 @@
 // console.log("Hi");
 
 
-function square(n){
-    return n *n;
-}
+// function square(n){
+//     return n *n;
+// }
 
-function cube(n){
-    return n *n*n;
-}
+// function cube(n){
+//     return n *n*n;
+// }
 
 
-function sumOfSquare(a, b, fn){
-    const val1 = fn(a);
-    const val2 = fn(b);
+// function sumOfSquare(a, b, fn){
+//     const val1 = fn(a);
+//     const val2 = fn(b);
    
-    return val1 + val2;
+//     return val1 + val2;
+// }
+
+
+// function sumOfcubes(a,b,fn){
+//     const val1 = fn(a);
+//     const val2 = fn(b);
+//     return val1 + val2;
+// }
+
+
+
+
+//UGLY CODE
+
+const fs = require('fs');
+
+function readthe(cb){
+
+    fs.readFile("a.txt", "utf-8", function(err,data){
+
+        cb(data);
+    });
+
+
 }
 
-
-function sumOfcubes(a,b,fn){
-    const val1 = fn(a);
-    const val2 = fn(b);
-    return val1 + val2;
+function onDone(data){
+    console.log(data)
 }
 
-
-
-
+readthe(onDone)
