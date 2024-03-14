@@ -344,20 +344,39 @@
 
 //UGLY CODE
 
+// const fs = require('fs');
+
+// function readthe(cb){
+
+//     fs.readFile("a.txt", "utf-8", function(err,data){
+
+//         cb(data);
+//     });
+
+
+// }
+
+// function onDone(data){
+//     console.log(data)
+// }
+
+// readthe(onDone)
+
 const fs = require('fs');
 
-function readthe(cb){
+function readdd(){
+    return new Promise(function(resolve){
+        fs.readFile("a.txt", "utf-8", function(err,data){
+     
+            resolve(data);
 
-    fs.readFile("a.txt", "utf-8", function(err,data){
-
-        cb(data);
-    });
-
-
+        });
+    })
 }
 
-function onDone(data){
+function onDone(data) {
     console.log(data)
 }
 
-readthe(onDone)
+readdd().then(onDone);
+
