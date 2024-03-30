@@ -114,20 +114,20 @@
 // }
 
 
-function kiratAsyncFunction(){
+// function kiratAsyncFunction(){
 
-  let p = new Promise(function(resolve){
-    setTimeout(function(){
-      resolve("Hi there")
-    },3000)
-  });
-  return p;
-}
+//   let p = new Promise(function(resolve){
+//     setTimeout(function(){
+//       resolve("Hi there")
+//     },3000)
+//   });
+//   return p;
+// }
 
-async function main(){
+// async function main(){
 
-  let value = await kiratAsyncFunction();
-  console.log(value);
-}
+//   let value = await kiratAsyncFunction();
+//   console.log(value);
+// }
 
-main();
+// main();
