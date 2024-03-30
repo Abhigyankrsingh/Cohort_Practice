@@ -27,39 +27,53 @@
 // })
 
 
-const express = require('express')
+// const express = require('express')
 
-const app = express()
+// const app = express()
 
-const port = 3000
+// const port = 3000
 
-app.get("/app-router", function(req,res){
+// app.get("/app-router", function(req,res){
 
-  res.json ({
-     name: "Abhi",
-     age: 21
-  })
-})
-
-
-app.get('/', (req,res) =>{
-
-  res.send("Hello World")
-})
+//   res.json ({
+//      name: "Abhi",
+//      age: 21
+//   })
+// })
 
 
-app.listen(port, () =>{
+// app.get('/', (req,res) =>{
 
-  console.log(`This app is running at ${port}`)
-})
+//   res.send("Hello World")
+// })
 
 
+// app.listen(port, () =>{
+
+//   console.log(`This app is running at ${port}`)
+// })
 
 
 
+//Noraml function
+
+function abhiAsyncfunc(){
+
+  let p = new Promise(function(resolve){
+
+    resolve("Hi there! ")
+  });
+  return p;
+}
+
+function main() {
+  abhiAsyncfunc().then(function(value){
+    console.log(value);
+  });
+}
 
 
-
+main();
 
 
 
